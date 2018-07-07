@@ -49,6 +49,12 @@
 
 .slider-mobile{
 	display: block;
+  margin-top: 71px;
+}
+.model-intro,
+.model-intro .list,
+.model-intro .list .detail{
+  padding: 0px;
 }
 .text-about{
   padding: 0px 5px 20px 5px;

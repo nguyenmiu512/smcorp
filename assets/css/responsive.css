@@ -65,6 +65,13 @@
 .title{
   margin: 42px 0px 10px 0px;
 }
+.box-audience{
+  background: url('../images/bg_count_mobile.jpg') no-repeat center center;
+  height: 470px;
+}
+.list-count{
+  margin-top: 57px;
+}
 .title-about h4{
   line-height: 22px;
   margin-top: 26px;
@@ -117,6 +124,7 @@
 }
 .footer{
   text-align: center;
+  margin: 0px 0px 48px 0px;
 }
 .ft-add{
   padding-right:0px;
@@ -202,8 +210,37 @@
     padding: 0px 2px;
   }
   .navbar-toggle{
-    background-color: #333;
+    background-color: #fff;
     margin-top: 18px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #000;
+  }
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus{
+    background-color: #f3f3f3;
+  }
+  .navbar-fixed-bottom, .navbar-fixed-top{
+    z-index: 99999;
+  }
+  .navbar-toggle .icon-bar{
+    height: 3px;
+    width: 25px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #bfbfbf;
+  }
+  .bx-wrapper .bx-viewport {
+    left:0px;
+  }
+  .bx-wrapper{
+    margin-bottom: 0px;
+  }
+  .navbar-inverse .navbar-toggle{
+    background-color: #fff;
+  }
+  .navbar-inverse .navbar-toggle{
+    border-color: #fff
   }
 .header{
   background-size: cover;
@@ -574,7 +611,16 @@ padding-top: 20px;
 }
 
 .in-about{
-  padding: 0px;©©
+  padding: 0px;
+  background: url('../images/bg_about_mobile.jpg') center center no-repeat;
+  height: 194px;
+}
+.in-box-map{
+  background: url('../images/bg_map_mobile.jpg') center center no-repeat;
+  height: 416px;
+}
+.list-logo{
+  margin: 0px 0px 50px 0px;
 }
 .in-about img{
   width: 100%;
